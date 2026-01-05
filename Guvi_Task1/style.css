@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fefcfb;
+}
+
+/* ------Header navbar------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.hsection1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hsection1 h2 {
+  font-family: Volkhov;
+  font-weight: bold;
+}
+
+.hsection2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-toggle {
+  font-family: poppins;
+  padding: 10px;
+  background-color: #fefcfb;
+  border: none;
+}
+
+.h-toggle:hover {
+  background-color: #fa7436;
+  color: #fefcfb;
+  border-radius: 5px;
+}
+
+.h-toggle-login {
+  font-family: poppins;
+  padding: 8px;
+  background-color: #fefcfb;
+  border: none;
+  color: #fa7436;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.h-toggle-login:hover {
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #fa7436;
+}
+
+.h-toggle-signup {
+  font-family: poppins;
+  padding: 8px;
+  background-color: #fa7436;
+  border: none;
+  color: #ffff;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.h-toggle-signup:hover {
+  color: #fa7436;
+  background-color: #fefcfb;
+  border-radius: 10%;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px #fa7436;
+}
+
+/* ------Main section------- */
+
+.m-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.m-section1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  align-items: start;
+  margin-top: 100px;
+  gap: 50px;
+  flex: 6;
+}
+
+.m-section1 h1 {
+  font-family: Volkhov;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.m-section1 span {
+  color: #fa7436;
+}
+
+.m-section1 p {
+  font-family: poppins;
+}
+
+.m-section1 button {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #fa7436;
+  color: #fa7436;
+  border-radius: 5px;
+}
+
+.m-section1 button:hover {
+  color: #fff;
+  background-color: #fa7436;
+}
+
+.m-section2 {
+  width: 100%;
+  flex: 6;
+}
+
+.m-section2 img {
+  width: auto;
+  height: auto;
+}
+
+/* ------Main section 2------- */
+
+.m2-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.m2-section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px lightgray;
+  font-family: poppins;
+  width: 70%;
+}
+
+.m2-toggle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.m2-toggle div {
+  font-size: small;
+  font-weight: 550;
+}
+.m2-toggle p {
+  font-size: x-small;
+}
+
+.m2-toggle select {
+  background-color: #ffffff;
+  border: none;
+  color: #fa7436;
+}
+
+.m2-section1 button {
+  padding: 20px;
+  border: none;
+  background-color: #fa7436;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.m2-section1 button:hover {
+  color: #fa7436;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #fa7436;
+}
+
+/* -------Main section 3-------- */
+
+.m3-section {
+  background-color: #f7f8fc;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+.m3-section1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+.m3-section1 img {
+  width: 179.9;
+  height: 130.73;
+  flex: 1;
+}
+
+.m3-section1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 8;
+}
+
+.m3-section1 span {
+  color: #fa7436;
+}
+
+.m3-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.m3-sectionCard1,
+.m3-sectionCard2,
+.m3-sectionCard3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  background-color: #fff;
+  width: 370px;
+  height: 278px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px lightgray;
+}
+
+.m3-Bimg {
+  position: absolute;
+  z-index: 1;
+}
+
+.m3-sectionCard1 div,
+.m3-sectionCard2 div,
+.m3-sectionCard3 div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  z-index: 2;
+  font-family: poppins;
+}
+
+.m3-sectionCard1 div img,
+.m3-sectionCard2 div img,
+.m3-sectionCard3 div img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+}
